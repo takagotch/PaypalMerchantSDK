@@ -38,6 +38,14 @@ account2.applicationId = APP-XXX
 
 http.ConnectionTimeOut = 5000
 http.Retry = 2
+http.ReadTimeOut = 30000
+http.MaxConnection = 100
+http.IPAddress=127.0.0.1
 
+mode=sandbox
+service.RedirectURL = https://www.sandbox.paypal.com/webscr&cmd=
+service.RedirectURL = https://www.paypal.com/webscr&cmd=
+service.DevCentralURL=https://developer.paypal.com
+sandbox.EmailAddress = pp.devtools@gmail.com
 ```
 
