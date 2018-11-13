@@ -24,4 +24,8 @@ PaypalAPIInterfaceService s = new PayPalAPIInterfaceService(config);
 
 ```
 
+```ruby
+account1.apiUsername = jb-us-seller_api1.paypal.com
+
+```
 
