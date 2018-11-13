@@ -26,6 +26,18 @@ PaypalAPIInterfaceService s = new PayPalAPIInterfaceService(config);
 
 ```ruby
 account1.apiUsername = jb-us-seller_api1.paypal.com
+account1.apiPassword = XXX
+account1.apiSignature = XXXXX
+account1.applicationId = APP-XXXX
+
+account2.apiUsername = certuser_biz_api1.paypal.com
+account2.apiPassword = XXXX
+account2.apiCertificate = resource/sdk-cert.p12
+account2.privateKeyPassword = password
+account2.applicationId = APP-XXX
+
+http.ConnectionTimeOut = 5000
+http.Retry = 2
 
 ```
 
